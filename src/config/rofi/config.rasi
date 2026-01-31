@@ -10,7 +10,7 @@ configuration {
 }
 
 * {
-    background-color: #00000095;
+    background-color: #0f0f0f;
     text-color:         @fg0;
     font: "Radio Canada Big 12";
     margin:     0px;
@@ -24,7 +24,7 @@ window {
     width:          480;
     border: 1px;
     border-color: #ffffff;
-    border-radius:  24px;
+    border-radius:  16px;
 }
 
 mainbox {
@@ -35,8 +35,8 @@ inputbar {
     background-color:   transparent;
     border:         1px;
     border-color: #ffffff; 
-    border-radius:  16px;
-    padding:    8px 16px;
+    border-radius:  10px;
+    padding:    10px 16px;
     spacing:    8px;
     children:   [ prompt, entry ];
 }
@@ -65,7 +65,7 @@ textbox {
 listview {
     background-color:   transparent;
     margin:     12px 0 0;
-    lines:      8;
+    lines:      7;
     columns:    1;
     fixed-height: false;
 }
@@ -73,7 +73,7 @@ listview {
 element {
     background-color: transparent;
     padding:        8px 16px;
-    spacing:        8px;
+    spacing:        15px;
     border-radius:  16px;
 }
 
@@ -88,10 +88,9 @@ element alternate active {
 }
 
 element selected normal, element selected active {
-    background-color: transparent;
-    border:         1px;
-    border-color: #ffffff;
-    border-radius: 16px;
+    background-color: #b5b3b3;
+    border-radius: 10px;
+    color: #000000;
 }
 
 element-icon {

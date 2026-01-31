@@ -46,9 +46,9 @@ done
 selected=$(printf '%b\n' "${menu_lines[@]}" | rofi \
     -dmenu \
     -show-icons \
-    -lines 5 \
+    -lines 10 \
     -fixed-num-lines \
-    -theme-str 'listview { lines: 5; }' \
+    -theme-str 'listview { lines: 7; }' \
     -p "Wallpapers")
 
 # --- USER SELECTED SOMETHING ---
